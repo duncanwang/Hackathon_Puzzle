@@ -5,9 +5,13 @@
 ## 2. 我们的团队
 ![](./pic/team.PNG)
 
+## 3.我们的产品截图
+![](./产品UI/1.游戏页面.png)
+![](./产品UI/2.完成的游戏页面.png)
+![](./产品UI/3.个人中心.png)
 
-## 3 我们的代码
+## 4 我们的代码
 https://github.com/duncanwang/Hackathon_Puzzle/tree/master/code
 
-## 4. 我们的部署
+## 5. 我们的部署
 http://puzzlebid.dingheng.xyz/#/page/deal
