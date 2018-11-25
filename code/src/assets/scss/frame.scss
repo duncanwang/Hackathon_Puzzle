@@ -1,0 +1,81 @@
+html,
+body,
+#app {
+  height: 100%;
+  width: 100%;
+}
+
+.page-module {
+  // padding: 0 0 48px 0;
+  // position: absolute;
+  // left: $sidenav-width;
+  // margin-top: $header-height;
+  // width: 100%;
+}
+
+.module-header {
+  padding: 20px 0px;
+  background-color: $black;
+  border-top: 1px solid $border-black;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 70px;
+  h3 {
+    font-size: 24px;
+    color: $text-grey;
+  }
+}
+
+.module-content {
+  padding: 20px;
+}
+// .el-container{
+//   width: 1200px;
+//   margin: 0 auto 0px auto;
+// }
+
+.module-content:fullscreen {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+.choose_box_btn {
+  float: right;
+  width: 100px;
+  margin-top: 12px;
+  color: #5ea0cf;
+  border: none;
+  height: 34px;
+  text-align: center;
+  line-height: 18px;
+  cursor: pointer;
+}
+
+.choose_box_btn:hover {
+  background: #a8d3f1;
+}
+
+.choose_box_btn:active {
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
+}
+.panel:fullscreen,
+.panel:-webkit-full-screen,
+.panel:-moz-full-screen {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.nav-collapse {
+  .caret {
+    transform: rotate(-90deg);
+  }
+  .sndnav {
+    display: none;
+  }
+}
+
+@media (max-width:768px) {
+
+}
